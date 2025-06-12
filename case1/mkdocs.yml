@@ -1,0 +1,25 @@
+site_name: Дизайн-документ
+
+theme:
+  name: material
+  features:
+    - toc.integrate
+
+nav:
+  - Главная: index.md
+  - Модели и диаграммы: diagrams.md
+
+plugins:
+  - search
+  - drawio:
+      format: svg
+      embed: true
+  - glightbox:
+      auto_open: false
+      zoomable: true
+      draggable: true
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
