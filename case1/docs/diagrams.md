@@ -16,7 +16,7 @@
 
 Диаграмма архитектуры системы
 
-![](media/arch.svg){ .glightbox }
+![](media/arch.png)
 
 Структурная UML 
 
@@ -24,4 +24,4 @@
 
 Поведенческая UML
 
-![](media/UMLactivity.svg){ .glightbox }
+![](media/UMLactivity.png)
